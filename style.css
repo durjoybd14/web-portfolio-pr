@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.color-words{
+    color: orange;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    /* color: #ddd; */
+}
+
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 4%;
+    padding: 2%;
+}
+
+section{
+    height: 500px;
+}
+
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.hire-button{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+.middle-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 700px;
+}
+
+.experience-section h2{
+    font-size: 32px;
+}
+.experience-section{
+    height: 500px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left 75%;
+}
+
+.experience-section .half-div{
+    float: left;
+    width: 32%;
+    padding:2% 5% 4% 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    border-radius: 10px;
+    
+}
+.experience-section .half-div h2{
+    font-size: 32px;
+}
+.experience-section .half-div h3{
+    font-size: 20px;
+}
+.experience-section .half-div p{
+    font-size: 18px;
+}
+
+#full-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    padding: 100px;
+    text-align: center;
+}
